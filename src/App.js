@@ -19,7 +19,7 @@ function App() {
           <NavBar />
           <main className="main-content">
             <Routes>
-              <Route path="/home" element={<Home />} />
+              <Route path="/Candy/home" element={<Home />} />
               <Route path="/about" element={<About />} />
               {/* <Route path="/research" element={<Research />} /> */}
               {/* Default route to Home */}
