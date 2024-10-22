@@ -48,18 +48,19 @@
     position: fixed;
     top: 0;
     right: -100%;
-    background-color: hsla(0, 0%, 6%, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    width: 80%;
+    /* background-color: hsla(0, 0%, 0%, 0.2); */
+    background-color: black;
+    /* backdrop-filter: blur(40px); */
+    /* -webkit-backdrop-filter: blur(40px); */
+    /* width: 80%; */
     height: 100%;
-    padding: 6rem 3rem 0;
+    padding: 5rem 5rem 0;
     transition: right 0.4s;
   }
 }
 @media screen and (max-width: 300px) {
   .nav__menu {
-    padding: 4rem 1rem 2rem;
+    /* padding: 4rem 1rem 2rem; */
   }
 
   .nav__list {
