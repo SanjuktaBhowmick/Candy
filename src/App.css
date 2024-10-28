@@ -28,5 +28,5 @@ ul {
   --z-fixed: 100;
   --header-height: 3.5rem;
   --header-margin: 0 1rem;
-  
+  --blur: 4px
 }

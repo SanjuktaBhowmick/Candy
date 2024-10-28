@@ -5,10 +5,7 @@ body {
   background-image: url("../../asserts/bg.png");
   background-size: contain;
   background-position: center;
-  background-attachment: fixed; 
-}
-
-.home-container {
+  background-attachment: fixed;
 }
 
 .home-heading {
@@ -111,7 +108,7 @@ li {
 .main-heading-container {
   position: relative;
   background-image: url("../../asserts/graph2.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   padding: 40px;
   border-radius: 0 0 8px 8px;
@@ -124,9 +121,25 @@ li {
   z-index: 1;
 }
 
+
+.header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../../asserts/graph2.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  filter: blur(var(--blur));
+}
+
+
+
 @media (max-width: 768px) {
   .home-heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .main-heading-container {
