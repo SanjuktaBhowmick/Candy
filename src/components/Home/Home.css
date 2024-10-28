@@ -1,5 +1,11 @@
 /* Home.css */
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+  background: linear-gradient(135deg, #e2e2e2, #ffffff);
+}
+
 .home-container {
   padding: 20px;
   max-width: 1200px;
@@ -10,17 +16,32 @@
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 20px;
+  color: #333;
+}
+
+.section {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .section-heading {
   font-size: 2rem;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
+  color: #2c3e50; /* Darker color for section headings */
+  text-align: center; /* Center align headings */
+  border-bottom: 2px solid #3498db; /* Add a bottom border */
+  display: inline-block; /* Adjust for border */
+  padding-bottom: 5px; /* Padding for space */
 }
 
 p {
   font-size: 1.1rem;
   line-height: 1.5;
+  color: #555; /* Grayish color for better readability */
 }
 
 ul {
@@ -33,24 +54,27 @@ li {
 }
 
 .intellectual-merit {
-  display: flex; 
-  align-items: flex-start;
-  gap: 20px; 
+  display: flex; /* Use Flexbox to align image and text */
+  align-items: flex-start; /* Align items to the start */
+  gap: 20px; /* Space between image and text */
 }
 
 .intellectual-merit-content {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row; /* Row layout for image and text */
   align-items: flex-start;
 }
 
 .intellectual-merit-image {
-  width: 30%; 
-  height: auto;
+  width: 30%; /* Set the image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
 .intellectual-merit-text {
   flex: 1;
+  margin: 0 0 0 1rem;
 }
 
 /* Media Queries for Responsiveness */
@@ -61,7 +85,6 @@ li {
   
   .section-heading {
     font-size: 1.5rem;
-    background-color: pink;
   }
 
   p, li {
@@ -69,11 +92,15 @@ li {
   }
 
   .intellectual-merit-content {
-    flex-direction: column;
-    align-items: center; 
+    flex-direction: column; /* Stack vertically on small screens */
+    align-items: center; /* Center align */
   }
 
   .intellectual-merit-image {
-    width: 100%; 
+    width: 100%;
+  }
+
+  .intellectual-merit-text{
+    margin: 1rem 0;
   }
 }
