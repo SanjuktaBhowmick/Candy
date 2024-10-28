@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { IoClose, IoMenu } from "react-icons/io5";
+import logo  from '../../asserts/logo_white.png'
 import "./NavBar.css";
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
     <header className="header">
       <nav className="nav container">
         <NavLink to="/" className="nav__logo">
-          Candy
+          <img src={logo} alt="" className="nav__logo-image" />
         </NavLink>
 
         <div

@@ -9,6 +9,11 @@
   z-index: var(--z-fixed);
 }
 
+.nav__logo-image {
+  height: 40px;
+  width: auto; 
+}
+
 .nav {
   display: flex;
   align-items: center;
