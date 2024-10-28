@@ -1,0 +1,65 @@
+.publications-main-heading-container {
+  position: relative;
+  padding: 40px;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden; 
+}
+
+.header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../asserts/graph2.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  filter: blur(8px);
+}
+
+.publications-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--title-color);
+  position: relative;
+  z-index: 1;
+}
+
+.publications-list {
+  margin: 20px 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.publication-item {
+  /* background-color: var(--body-color); */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  margin-bottom: 20px;
+  /* transition: transform 0.3s, box-shadow 0.3s; */
+}
+
+.publication-item:hover {
+  /* transform: translateY(-1px); */
+  box-shadow: 0 8px 25px var(--first-color);
+}
+
+.publication-item p {
+  margin: 0;
+  color: var(--font-color);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .publications-heading {
+    font-size: 2rem;
+  }
+
+  .publication-item p {
+    font-size: 0.9rem;
+  }
+}

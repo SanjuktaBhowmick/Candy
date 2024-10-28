@@ -8,7 +8,8 @@ import {
 
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home';
-import About from './components/About/About';
+import Publications from './components/Publications/Publications';
+
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <main className="main-content">
             <Routes>
               <Route path="/home" element={<Home />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/publications" element={<Publications />} />
               {/* <Route path="/research" element={<Research />} /> */}
               {/* Default route to Home */}
               <Route path="/" element={<Navigate replace to="/home" />} />
