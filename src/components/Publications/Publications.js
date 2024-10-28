@@ -24,6 +24,7 @@ const Publications = () => {
                 {publication.doi}
               </a>
             </p>
+            <hr className="publication-divider" /> {/* Line division */}
           </li>
         ))}
       </ul>
