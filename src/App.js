@@ -1,4 +1,5 @@
-import './App.css';
+import React from "react";
+import "./App.css";
 import {
   BrowserRouter as Router,
   Route,
@@ -6,11 +7,9 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import NavBar from './components/NavBar/NavBar';
-import Home from './components/Home/Home';
-import Publications from './components/Publications/Publications';
-
-
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./components/Home/Home";
+import Publications from "./components/Publications/Publications";
 
 function App() {
   return (
