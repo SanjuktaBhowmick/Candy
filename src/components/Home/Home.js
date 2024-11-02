@@ -1,16 +1,11 @@
 import React from "react";
 import IntellectualMerit from "../../asserts/IntellectualMerit.png";
+import MainHeading from "../MainHeading/MainHeading";
 import "./Home.css";
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="main-heading-container">
-        <div className="header-background"></div>
-        <h1 className="home-heading">
-          Cyberinfrastructure for Accelerating Innovation in Network Dynamics
-        </h1>
-      </div>
-
+      <MainHeading headingText="Cyberinfrastructure for Accelerating Innovation in Network Dynamics" />
       <div className="sections">
         <section className="goals">
           <h2 className="section-heading">Goals</h2>

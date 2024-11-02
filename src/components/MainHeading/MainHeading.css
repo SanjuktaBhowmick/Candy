@@ -1,0 +1,31 @@
+.main-heading-container {
+  position: relative;
+  background-image: url("../../asserts/graph2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: var(--header-bg-height);
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-heading {
+  font-size: 2.5rem;
+  color: var(--title-color);
+  position: relative;
+  z-index: 1;
+}
+
+.header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../asserts/graph2.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  filter: blur(var(--blur));
+}

@@ -1,14 +1,12 @@
 import React from "react";
 import publications from "../../data/publicationsData";
+import MainHeading from "../MainHeading/MainHeading";
 import "./Publications.css";
 
 const Publications = () => {
   return (
     <div className="publications-container">
-      <div className="publications-main-heading-container">
-        <div className="header-background"></div>
-        <h1 className="publications-heading">Publications</h1>
-      </div>
+      <MainHeading headingText="Publications" />
       <ul className="publications-list">
         {publications.map((publication, index) => (
           <li key={index} className="publication-item">
