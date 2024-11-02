@@ -50,6 +50,17 @@ const Navbar = () => {
                 Publications
               </NavLink>
             </li>
+            <li className="nav__item">
+              <NavLink
+                to="/people"
+                className={({ isActive }) =>
+                  `nav__link ${isActive ? "active" : ""}`
+                }
+                onClick={closeMenuOnMobile}
+              >
+                People
+              </NavLink>
+            </li>
           </ul>
           <div className="nav__close" id="nav-close" onClick={toggleMenu}>
             <IoClose />

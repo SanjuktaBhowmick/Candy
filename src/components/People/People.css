@@ -1,0 +1,95 @@
+/* src/components/People.css */
+
+.people-container {
+  margin: 20px;
+  font-family: var(--body-font);
+}
+
+.section-heading {
+  font-size: 2rem; /* You can adjust this if needed */
+  color: var(--first-color);
+  margin-bottom: 15px;
+  text-align: center;
+  border-bottom: 2px solid var(--first-color);
+  padding-bottom: 10px;
+}
+
+.people-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.person-card {
+  background-color: var(--body-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.person-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.person-photo {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.person-name {
+  font-size: 1.25rem; /* Adjusted to use h2 font size */
+  color: var(--title-color);
+  margin: 5px 0;
+}
+
+.person-university {
+  font-size: var(--small-font-size);
+  color: hsl(0, 0%, 80%); /* A lighter shade for the university name */
+  margin-bottom: 5px;
+}
+
+.person-info {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--first-color);
+  margin: 0.5rem 0;
+}
+
+.person-link {
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.person-link:hover {
+  background-color: var(--first-color);
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .person-card {
+    width: 150px;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .person-name {
+    font-size: 1rem;
+  }
+
+  .person-university {
+    font-size: var(--small-font-size);
+  }
+}

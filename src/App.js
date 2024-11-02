@@ -10,6 +10,7 @@ import {
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home";
 import Publications from "./components/Publications/Publications";
+import People from "./components/People/People";
 
 function App() {
   return (
@@ -21,8 +22,7 @@ function App() {
             <Routes>
               <Route path="/home" element={<Home />} />
               <Route path="/publications" element={<Publications />} />
-              {/* <Route path="/research" element={<Research />} /> */}
-              {/* Default route to Home */}
+              <Route path="/people" element={<People />} />
               <Route path="/" element={<Navigate replace to="/home" />} />
             </Routes>
           </main>
