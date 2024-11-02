@@ -20,17 +20,18 @@ const People = () => {
                     className="person-photo"
                   />
                 )}
-
                 <h3 className="person-name">{professor.name}</h3>
                 <p className="person-university">{professor.university}</p>
-                <a
-                  href={professor.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="person-link"
-                >
-                  Website
-                </a>
+                {professor.website && (
+                  <a
+                    href={professor.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="person-link"
+                  >
+                    Website
+                  </a>
+                )}
               </div>
             ))}
           </div>
@@ -43,17 +44,17 @@ const People = () => {
               <div key={index} className="person-card">
                 <h3 className="person-name">{member.name}</h3>
                 <p className="person-university">{member.university}</p>
-                {member.info && (
-                  <p className="person-info">{member.info}</p> // Added education
+                {member.info && <p className="person-info">{member.info}</p>}
+                {member.website && (
+                  <a
+                    href={member.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="person-link"
+                  >
+                    Website
+                  </a>
                 )}
-                <a
-                  href={member.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="person-link"
-                >
-                  Website
-                </a>
               </div>
             ))}
           </div>
@@ -66,14 +67,16 @@ const People = () => {
               <div key={index} className="person-card">
                 <h3 className="person-name">{student.name}</h3>
                 <p className="person-university">{student.university}</p>
-                <a
-                  href={student.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="person-link"
-                >
-                  Website
-                </a>
+                {student.website && (
+                  <a
+                    href={student.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="person-link"
+                  >
+                    Website
+                  </a>
+                )}
               </div>
             ))}
           </div>

@@ -14,7 +14,6 @@ const professors = [
   {
     name: "Sajal Das",
     university: "Missouri S&T",
-    website: "",
     photo: "SajalDas.jpg",
   },
   {
@@ -26,7 +25,6 @@ const professors = [
   {
     name: "Samuel Frimpong ​",
     university: "Missouri S&T ​",
-    website: "",
     photo: "SamuelFrimpong.jpg",
   },
 ];
@@ -74,17 +72,14 @@ const students = [
   {
     name: "Aashish Pandey",
     university: "University of North Texas",
-    website: "https://www.unt.edu/",
   },
   {
     name: "Farahnaz Hosseini",
     university: "University of North Texas",
-    website: "https://www.unt.edu/",
   },
   {
     name: "S M Shovan",
     university: "Missouri S&T",
-    website: "https://www.mst.edu/",
   },
 ];
 
