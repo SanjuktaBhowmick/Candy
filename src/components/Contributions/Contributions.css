@@ -54,28 +54,32 @@ li {
   margin-bottom: 10px;
 }
 
-.intellectual-merit {
+.section-main {
   display: flex;
   align-items: flex-start;
   gap: 20px;
 }
 
-.intellectual-merit-content {
+.section-content {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 
-.intellectual-merit-image {
+.section-content-image_Goal2 {
   width: 30%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.intellectual-merit-text {
+.section-content-text {
   flex: 1;
   margin: 0 0 0 1rem;
+}
+.GraphPropertyUpdateUl{
+  font-size: 1.3rem;
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {
@@ -92,16 +96,16 @@ li {
     font-size: 1rem;
   }
 
-  .intellectual-merit-content {
+  .section-content {
     flex-direction: column;
     align-items: center;
   }
 
-  .intellectual-merit-image {
+  .section-content-image {
     width: 100%;
   }
 
-  .intellectual-merit-text {
+  .section-content-text {
     margin: 1rem 0;
   }
 }
