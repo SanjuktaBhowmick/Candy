@@ -88,6 +88,7 @@ const students = [
   {
     name: "Kishan Kumar Zalavadia",
     university: "University of North Texas",
+    website: "https://kishankumar.netlify.app/",
   },
 ];
 
