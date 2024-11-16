@@ -1,4 +1,5 @@
 import React from "react";
+import Goal_1 from "../../asserts/Contributions/Goal-1.png";
 import Goal_2_1 from "../../asserts/Contributions/Goal-2.1.png";
 import Goal_2_2 from "../../asserts/Contributions/Goal-2.2.png";
 import MainHeading from "../MainHeading/MainHeading";
@@ -8,6 +9,27 @@ const Contributions = () => {
     <div className="home-container">
       <MainHeading headingText="Contributions" />
       <div className="sections">
+        <h2 className="section-heading">Goal 1: </h2>
+        <div>
+          <img
+            src={Goal_1}
+            alt="Goal 2 image"
+            className="section-content-image_Goal1"
+          />
+          <div className="section-content-text">
+            <ul class="ul-list">
+              <li>Vertex Color Update</li>
+              <li>
+                Our algorithm maintains proper coloring with (𝑑_max + 1) upper
+                bound.
+              </li>
+              <li>
+                Our algorithm maintains proper coloring with (𝑑_max + 1) upper
+                bound.
+              </li>
+            </ul>
+          </div>
+        </div>
         <h2 className="section-heading">
           Goal 2: Use of Local Information to Improve Efficiency
         </h2>
@@ -20,7 +42,7 @@ const Contributions = () => {
               className="section-content-image_Goal2"
             />
             <div className="section-content-text">
-              <ul class="GraphPropertyUpdateUl">
+              <ul class="ul-list">
                 <li>
                   We proposed a unique priority assignment for distributed
                   coloring that reduces inter-partition communication
