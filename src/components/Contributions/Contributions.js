@@ -9,11 +9,13 @@ const Contributions = () => {
     <div className="home-container">
       <MainHeading headingText="Contributions" />
       <div className="sections">
-        <h2 className="section-heading">Goal 1: </h2>
+        <h2 className="section-heading">
+          Goal 1: Utilization of Prior Knowledge to Avoid Redundant Computation
+        </h2>
         <div>
           <img
             src={Goal_1}
-            alt="Goal 2 image"
+            alt="Goal 1 image"
             className="section-content-image_Goal1"
           />
           <div className="section-content-text">

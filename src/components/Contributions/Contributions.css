@@ -116,6 +116,14 @@ li {
   .section-content-text {
     margin: 1rem 0;
   }
+
+  .section-content-image_Goal2 {
+  width: 100%;
+}
+
+.section-content-image_Goal1 {
+  width: 100%;
+}
 }
 
 
