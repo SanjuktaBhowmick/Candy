@@ -2,10 +2,30 @@ import React from "react";
 import IntellectualMerit from "../../asserts/IntellectualMerit.png";
 import MainHeading from "../MainHeading/MainHeading";
 import "./Home.css";
+import Carousel from "../Carousel/Carousel";
+
+const carouselItems = [
+  {
+    image: require("../../asserts/IntellectualMerit.png"),
+    title: "Slide 1",
+    description: "This is the description for Slide 1",
+  },
+  {
+    image: require("../../asserts/IntellectualMerit.png"),
+    title: "Slide 2",
+    description: "This is the description for Slide 2",
+  },
+  {
+    image: require("../../asserts/IntellectualMerit.png"),
+    title: "Slide 3",
+    description: "This is the description for Slide 3",
+  },
+];
 const Home = () => {
   return (
     <div className="home-container">
       <MainHeading headingText="Cyberinfrastructure for Accelerating Innovation in Network Dynamics" />
+      {/* <Carousel items={carouselItems} /> */}
       <div className="sections">
         <section className="goals">
           <h2 className="section-heading">Goals</h2>
