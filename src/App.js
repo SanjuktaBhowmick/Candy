@@ -12,6 +12,7 @@ import Home from "./components/Home/Home";
 import Publications from "./components/Publications/Publications";
 import People from "./components/People/People";
 import Summaries from "./components/Summaries/Summaries";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           </main>
         </div>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }
