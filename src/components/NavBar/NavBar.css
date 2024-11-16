@@ -92,14 +92,20 @@
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   transition: color 0.4s;
+  /* background-color: pink; */
+  padding: 0 0 20px 0px;
 }
 
 .nav__link:hover {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  /* border-bottom: 2px solid var(--first-color); */
+
 }
 
 .nav__link.active {
-  color: var(--first-color); /* Change color for active link */
+  /* color: var(--first-color); */
+  border-bottom: 5px solid var(--first-color);
+  border-radius: 5px;
 }
 
 .nav__close {
