@@ -52,7 +52,7 @@ const advisoryBoard = [
     website: "https://illinois.edu/",
   },
   {
-    name: "Michelle Strout, Ph.D.",
+    name: "Michelle Strout",
     university: "Hewlett Packard Enterprise",
     website: "https://www.hpe.com/",
   },
@@ -80,6 +80,14 @@ const students = [
   {
     name: "S M Shovan",
     university: "Missouri S&T",
+  },
+  {
+    name: "Shiva Kumar Reddy",
+    university: "University of North Texas",
+  },
+  {
+    name: "Kishan Kumar Zalavadia",
+    university: "University of North Texas",
   },
 ];
 
