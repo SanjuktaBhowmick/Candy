@@ -37,6 +37,12 @@ const Home = () => {
             CANDY platform on distributed and shared memory systems, and GPUs,
             providing user-friendly interfaces.
           </p>
+          <h3>
+            Software Link: &nbsp;
+            <a href="https://github.com/CANDYNSF/CANDYforAll" target="_blank">
+              click here
+            </a>
+          </h3>
         </section>
 
         <section className="challenges">
