@@ -63,17 +63,6 @@ const Navbar = () => {
             </li>
             <li className="nav__item">
               <NavLink
-                to="/contributions"
-                className={({ isActive }) =>
-                  `nav__link ${isActive ? "active" : ""}`
-                }
-                onClick={closeMenuOnMobile}
-              >
-                Contributions
-              </NavLink>
-            </li>
-            <li className="nav__item">
-              <NavLink
                 to="/people"
                 className={({ isActive }) =>
                   `nav__link ${isActive ? "active" : ""}`

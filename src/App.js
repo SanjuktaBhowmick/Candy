@@ -13,7 +13,6 @@ import Publications from "./components/Publications/Publications";
 import People from "./components/People/People";
 import Summaries from "./components/Summaries/Summaries";
 import Footer from "./components/Footer/Footer";
-import Contributions from "./components/Contributions/Contributions";
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/publications" element={<Publications />} />
               <Route path="/summaries" element={<Summaries />} />
-              <Route path="/contributions" element={<Contributions />} />
               <Route path="/people" element={<People />} />
               <Route path="/" element={<Navigate replace to="/home" />} />
             </Routes>
