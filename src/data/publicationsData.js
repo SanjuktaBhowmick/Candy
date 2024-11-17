@@ -6,6 +6,7 @@ const publications = [
       "Pandey, Aashish; Khanda, Arindam; Srinivasan, Sriram; Bhowmick, Sanjukta; Das, Sajal K; Norris, Boyana; ",
     title:
       "CANDY: An Efficient Framework for Updating Properties on Large Dynamic Networks",
+    codeLink: "https://github.com/CANDYNSF/CANDYforAll",
   },
   {
     authors: "Khanda, Arindam; Das, Sajal K; ",

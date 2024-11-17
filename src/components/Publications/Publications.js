@@ -33,6 +33,18 @@ const Publications = () => {
                   </a>
                 </>
               )}
+              {publication.codeLink && (
+                <>
+                  , {" "}
+                  <a
+                    href={publication.codeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Source Code
+                  </a>
+                </>
+              )}
             </p>
             <hr className="publication-divider" /> {/* Line division */}
           </li>
