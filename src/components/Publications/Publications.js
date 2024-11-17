@@ -11,16 +11,28 @@ const Publications = () => {
         {publications.map((publication, index) => (
           <li key={index} className="publication-item">
             <p>
-              <strong>{publication.authors}</strong>, {publication.title},{" "}
-              <em>{publication.journal}</em>, {publication.volume}, pp.{" "}
-              {publication.pages}, {publication.date}, doi:{" "}
-              <a
-                href={`https://doi.org/${publication.doi}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {publication.doi}
-              </a>
+              {publication.authors && <strong>{publication.authors}</strong>}
+              {publication.title && `, ${publication.title}`}
+              {publication.journal && (
+                <>
+                  , <em>{publication.journal}</em>
+                </>
+              )}
+              {publication.volume && `, ${publication.volume}`}
+              {publication.pages && `, pp. ${publication.pages}`}
+              {publication.date && `, ${publication.date}`}
+              {publication.doi && (
+                <>
+                  , doi:{" "}
+                  <a
+                    href={`https://doi.org/${publication.doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {publication.doi}
+                  </a>
+                </>
+              )}
             </p>
             <hr className="publication-divider" /> {/* Line division */}
           </li>
