@@ -12,7 +12,7 @@ const Publications = () => {
           <li key={index} className="publication-item">
             <p>
               {publication.authors && <strong>{publication.authors}</strong>}
-              {publication.title && `, ${publication.title}`}
+              {publication.title && `${publication.title}`}
               {publication.journal && (
                 <>
                   , <em>{publication.journal}</em>
