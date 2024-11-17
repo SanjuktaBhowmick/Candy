@@ -16,7 +16,8 @@ const publications = [
       "Proceedings of the 24th International Conference on Distributed Computing and Networking",
     pages: "298-299",
     date: "2023",
-    // doi: "",
+    paperLink:
+      "https://www.researchgate.net/publication/366866111_A_Parallel_Framework_for_Efficiently_Updating_Graph_Properties_in_Large_Dynamic_Networks",
   },
   {
     authors: "Khanda, Arindam; Shovan, SM; Das, Sajal K; ",
@@ -26,7 +27,8 @@ const publications = [
       "Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis",
     pages: "739-746",
     date: "2023",
-    // doi: "",
+    paperLink:
+      "https://www.researchgate.net/publication/375593871_A_Parallel_Algorithm_for_Updating_a_Multi-objective_Shortest_Path_in_Large_Dynamic_Networks",
   },
   {
     authors:
@@ -37,7 +39,8 @@ const publications = [
       "2023 IEEE 35th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
     pages: "109-118",
     date: "2023",
-    doi: "",
+    paperLink:
+      "https://www.researchgate.net/publication/375505361_A_Distributed_Algorithm_for_Identifying_Strongly_Connected_Components_on_Incremental_Graphs",
   },
   {
     authors: "A. Khanda, S. Srinivasan, S. Bhowmick, B. Norris and S. K. Das",
@@ -80,7 +83,7 @@ const publications = [
     volume: "33",
     pages: "929-940",
     date: "2022",
-    doi: "https://www.researchgate.net/publication/356414862_Efficient_Parallel_Algorithm_for_Shortest_Path_Updates_in_Dynamic_Networks_at_Scale",
+    paperLink: "https://www.researchgate.net/publication/356414862_Efficient_Parallel_Algorithm_for_Shortest_Path_Updates_in_Dynamic_Networks_at_Scale",
   },
   {
     authors: "Khanda, Arindam; Corò, Federico; Das, Sajal K; ",
@@ -89,7 +92,7 @@ const publications = [
       "Proceedings of the 2022 Workshop on Advanced tools, programming languages, and PLatforms for Implementing and Evaluating algorithms for Distributed systems",
     pages: "24-29",
     date: "2022",
-    // doi: "",
+    paperLink: "https://www.researchgate.net/publication/353298228_Cooperative_Truck-Drone_Scheduling_Approach_for_Last-Mile_Deliveries",
   },
   {
     authors: "Khanda, Arindam; Bhowmick, Sanjukta; Liang, Xin; Das, Sajal K; ",

@@ -33,9 +33,21 @@ const Publications = () => {
                   </a>
                 </>
               )}
-              {publication.codeLink && (
+              {publication.paperLink && (
                 <>
                   , {" "}
+                  <a
+                    href={publication.paperLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Research Paper
+                  </a>
+                </>
+              )}
+              {publication.codeLink && (
+                <>
+                  ,{" "}
                   <a
                     href={publication.codeLink}
                     target="_blank"
