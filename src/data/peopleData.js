@@ -8,7 +8,7 @@ const professors = [
   {
     name: "Sanjukta Bhowmick",
     university: "University of North Texas",
-    website: "https://sanjuktabhowmick.netlify.app/",
+    website: "https://sanjuktabhowmick.github.io/Portfolio/",
     photo: "SanjuktaBhowmick.jpg",
   },
   {
