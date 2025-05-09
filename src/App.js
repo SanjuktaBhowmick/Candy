@@ -23,10 +23,11 @@ function App() {
           <main className="main-content">
             <Routes>
               <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/publications" element={<Publications />} />
               <Route path="/summaries" element={<Summaries />} />
               <Route path="/people" element={<People />} />
-              <Route path="/" element={<Navigate replace to="/home" />} />
+              {/* <Route path="/" element={<Navigate replace to="/home" />} /> */}
             </Routes>
           </main>
         </div>
