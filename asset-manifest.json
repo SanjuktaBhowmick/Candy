@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Candy/static/css/main.3fe361ce.chunk.css",
+    "main.js": "/Candy/static/js/main.7fb33768.chunk.js",
+    "main.js.map": "/Candy/static/js/main.7fb33768.chunk.js.map",
+    "runtime~main.js": "/Candy/static/js/runtime~main.9bd9c7aa.js",
+    "runtime~main.js.map": "/Candy/static/js/runtime~main.9bd9c7aa.js.map",
+    "static/js/2.e053ec9e.chunk.js": "/Candy/static/js/2.e053ec9e.chunk.js",
+    "static/js/2.e053ec9e.chunk.js.map": "/Candy/static/js/2.e053ec9e.chunk.js.map",
+    "static/js/3.5a11cc32.chunk.js": "/Candy/static/js/3.5a11cc32.chunk.js",
+    "static/js/3.5a11cc32.chunk.js.map": "/Candy/static/js/3.5a11cc32.chunk.js.map",
+    "index.html": "/Candy/index.html",
+    "precache-manifest.86092464f63b96279433d10fc3f7bcad.js": "/Candy/precache-manifest.86092464f63b96279433d10fc3f7bcad.js",
+    "service-worker.js": "/Candy/service-worker.js",
+    "static/css/main.3fe361ce.chunk.css.map": "/Candy/static/css/main.3fe361ce.chunk.css.map",
+    "static/media/BoyanaNorris.jpg": "/Candy/static/media/BoyanaNorris.13bf4fec.jpg",
+    "static/media/Goal-1.png": "/Candy/static/media/Goal-1.caa93993.png",
+    "static/media/Goal-2.1.png": "/Candy/static/media/Goal-2.1.6fa7ab7a.png",
+    "static/media/Goal-2.2.png": "/Candy/static/media/Goal-2.2.e4884316.png",
+    "static/media/GraphPropertyUpdate.png": "/Candy/static/media/GraphPropertyUpdate.45da8eee.png",
+    "static/media/IntellectualMerit.png": "/Candy/static/media/IntellectualMerit.eb2021ce.png",
+    "static/media/PeterRalph.png": "/Candy/static/media/PeterRalph.01135458.png",
+    "static/media/SajalDas.jpg": "/Candy/static/media/SajalDas.3ace7520.jpg",
+    "static/media/SamuelFrimpong.jpg": "/Candy/static/media/SamuelFrimpong.f82ebd6f.jpg",
+    "static/media/SanjuktaBhowmick.jpg": "/Candy/static/media/SanjuktaBhowmick.e41d946a.jpg",
+    "static/media/Summaries.css": "/Candy/static/media/bg.f4f3d770.png",
+    "static/media/Publications.css": "/Candy/static/media/graph2.ef64684f.jpg",
+    "static/media/logo_white.png": "/Candy/static/media/logo_white.b381ff7c.png"
+  }
+}
